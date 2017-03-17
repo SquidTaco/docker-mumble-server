@@ -6,11 +6,11 @@ This is a Docker container for running [Murmur](http://wiki.mumble.info/wiki/Mai
 Usage
 -----
 
-This docker image is available as a [trusted build on the docker index](https://registry.hub.docker.com/u/coppit/mumble-server/).
+This docker image is available as a [trusted build on the docker index](https://registry.hub.docker.com/u/squidtaco/mumble-server/).
 
 To initialize the server configuration, run this:
 
-`docker run --name=mumble-server -d --net=host -v /path/to/config/mumble-server:/data -t coppit/mumble-server`
+`docker run --name=mumble-server -d --net=host -v /path/to/config/mumble-server:/data -t squidtaco/mumble-server`
 
 The container will create a config file in /path/to/config/mumble-server. Edit the file, setting the server password and any welcome message.
 
