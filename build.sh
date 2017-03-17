@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build --rm=true -t coppit/mumble-server . 
+docker build --rm=true -t squidtaco/mumble-server . 
